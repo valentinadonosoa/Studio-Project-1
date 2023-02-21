@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+img{
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+  margin: 0;
+  right: 0;
+  animation: move-left 4s linear forwards infinite;
+}
+  
+@keyframes move-left {
+  from { right: -220%; }
+  to { right: 0; }
+}
+
+header{
+  margin: 0;
+}
+
+p{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  z-index: 1;
+  text-align: center;
+  font-family: Lato;
+  font-weight: bold;
+  color: white;
+  font-size:xx-large;
+  padding: 5px;
+  text-decoration: none;
+}
